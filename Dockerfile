@@ -14,7 +14,7 @@ Expose 80
 ENV FUNCTIONS_WORKER_RUNTIME node
 ENV MYSQL_HOST=testmysqlflex.mysql.database.azure.com
 ENV MYSQL_USER=mysqladmin
-#ENV MYSQL_PASSWORD=Password@123
+ENV MYSQL_PASSWORD=Password@123
 ENV MYSQL_DATABASE=test
 ENV MYSQL_PORT=3306
 
